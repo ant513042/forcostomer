@@ -1,4 +1,4 @@
-<meta charset="utf-8">
+<div style="text-align: center;"><meta charset="utf-8"></div>
 <title></title>
 <!-- EmailJS --><script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script><script>
 (function(){
@@ -22,24 +22,27 @@ input[type="number"] {
   width: 60px;
 }
 </style>
-<p>訂購步驟：<br />
+<p style="text-align: center;">訂購步驟：<br />
 ①填寫收件資料<br />
 ③選擇所需購買的商品數量<br />
 ④訂購總金額會自動顯示<br />
 ⑤付款</p>
 
-<h2>產品訂購單</h2>
+<h2 style="text-align: center;">產品訂購單</h2>
 
 <form id="orderForm">
-<p>姓名： <input id="name" name="name" required="" type="text" /></p>
+<p style="text-align: center;">姓名： <input id="name" name="name" required="" type="text" /></p>
 
-<p>電話： <input id="phone" name="phone" required="" type="tel" /></p>
+<p style="text-align: center;">電話： <input id="phone" name="phone" required="" type="tel" /></p>
 
-<p>Email： <input id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="請輸入正確 Email" required="" title="請輸入有效的電子郵件，如 example@gmail.com" type="email" /></p>
+<p style="text-align: center;">Email： <input id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="請輸入正確 Email" required="" title="請輸入有效的電子郵件，如 example@gmail.com" type="email" /></p>
 
-<p>地址： <input id="address" name="address" required="" style="width:80%" type="text" /></p>
+<p style="text-align: center;">地址： <input id="address" name="address" required="" style="width:80%" type="text" /></p>
+&nbsp;
 
-<p>您的匯款帳號後五碼： <input id="number" name="number" required="" type="text" /></p>
+<div style="text-align: center;"><!-- 範例商品 --></div>
+
+<div style="text-align: center;"><!-- 可以依照需求再加入更多商品 --></div>
 
 <table>
 	<thead>
@@ -50,13 +53,13 @@ input[type="number"] {
 			<th>數量</th>
 		</tr>
 	</thead>
-	<tbody><!-- 範例商品 -->
+	<tbody>
 		<tr>
 			<td>
 			<table>
 				<tbody>
 					<tr>
-						<td><img alt="鳳梨酥" src="https://down-tw.img.susercontent.com/file/d59ae99076c44d33b96e304fc62fc6dc.webp" style="width: 100px; height: 100px;" /><img alt="蔓越莓酥" src="https://down-tw.img.susercontent.com/file/tw-11134207-7qul7-lind2n3xu1tg4d.webp" style="width: 100px; height: 100px;" /></td>
+						<td><img alt="鳳梨酥" src="https://down-tw.img.susercontent.com/file/d59ae99076c44d33b96e304fc62fc6dc.webp" style="width: 100px; height: 100px;" />&nbsp;<img alt="蔓越莓酥" src="https://down-tw.img.susercontent.com/file/tw-11134207-7qul7-lind2n3xu1tg4d.webp" style="width: 100px; height: 100px;" /></td>
 					</tr>
 				</tbody>
 			</table>
@@ -66,11 +69,13 @@ input[type="number"] {
 			<td><input class="item" data-name="鳳梨酥一圓形 550g 12盒/箱" data-price="5800" min="0" type="number" value="0" /></td>
 		</tr>
 		<tr>
-			<td><img alt="" src="https://down-tw.img.susercontent.com/file/tw-11134207-81ztd-mfy31be6sl5701.webp" style="width: 100px; height: 100px;" />
+			<td>
+			<div>&nbsp;</div>
+
 			<table>
 				<tbody>
 					<tr>
-						<td><img alt="" src="https://down-tw.img.susercontent.com/file/tw-11134207-81ztp-mfy31kdn6nm56d.webp" style="width: 100px; height: 100px;" /></td>
+						<td><img alt="" src="https://down-tw.img.susercontent.com/file/tw-11134207-81ztp-mfy31kdn6nm56d.webp" style="width: 100px; height: 100px;" />&nbsp;<img alt="" src="https://down-tw.img.susercontent.com/file/tw-11134207-81ztd-mfy31be6sl5701.webp" style="width: 100px; height: 100px;" /></td>
 					</tr>
 				</tbody>
 			</table>
@@ -79,17 +84,16 @@ input[type="number"] {
 			<td>5800</td>
 			<td><input class="item" data-name="蔓越莓酥─彩盒版 250g 12盒/箱" data-price="5800" min="0" type="number" value="0" /></td>
 		</tr>
-		<!-- 可以依照需求再加入更多商品 -->
 	</tbody>
 </table>
 
-<p>商品小計： <input id="subtotal" readonly="readonly" type="text" value="0" /> 元</p>
+<p style="text-align: center;">商品小計： <input id="subtotal" readonly="readonly" type="text" value="0" /> 元</p>
 
-<p>運費（郵局）： <input id="shipping" readonly="readonly" type="text" value="0" /> 元</p>
+<p style="text-align: center;">運費（郵局）： <input id="shipping" readonly="readonly" type="text" value="0" /> 元</p>
 
-<p><strong>訂購總金額：</strong> <input id="total" name="total" readonly="readonly" type="text" value="0" /> 元</p>
+<p style="text-align: center;"><strong>訂購總金額：</strong> <input id="total" name="total" readonly="readonly" type="text" value="0" /> 元</p>
 
-<p><button type="submit">送出訂單</button></p>
+<p style="text-align: center;"><button type="submit">送出訂單</button></p>
 </form>
 <script>
 const items = document.querySelectorAll('.item');
