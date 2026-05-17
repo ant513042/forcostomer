@@ -30,28 +30,29 @@ input[type="number"] {
 	</tbody>
 </table>
 
-<p style="text-align: center;"><br />
+<p><br />
 訂購步驟：<br />
 ①填寫收件資料<br />
 ③選擇所需購買的商品數量<br />
 ④訂購總金額會自動顯示<br />
 ⑤付款</p>
 
-<h2 style="text-align: center;">產品訂購單</h2>
+<h2>產品訂購單</h2>
 
 <form id="orderForm">
-<p style="text-align: center;">姓名： <input id="name" name="name" required="" type="text" /></p>
+<p>姓名： <input id="name" name="name" required="" type="text" /></p>
 
-<p style="text-align: center;">電話： <input id="phone" name="phone" required="" type="tel" /></p>
+<p>電話： <input id="phone" name="phone" required="" type="tel" /></p>
 
-<p style="text-align: center;">Email： <input id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="請輸入正確 Email" required="" title="請輸入有效的電子郵件，如 example@gmail.com" type="email" /></p>
+<p>Email： <input id="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="請輸入正確 Email" required="" title="請輸入有效的電子郵件，如 example@gmail.com" type="email" /></p>
 
-<p style="text-align: center;">地址： <input id="address" name="address" required="" style="width:80%" type="text" /></p>
-&nbsp;
+<p>地址： <input id="address" name="address" required="" style="width:80%" type="text" /></p>
 
-<div style="text-align: center;"><!-- 範例商品 --></div>
+<div>&nbsp;</div>
 
-<div style="text-align: center;"><!-- 可以依照需求再加入更多商品 --></div>
+<div><!-- 範例商品 --></div>
+
+<div><!-- 可以依照需求再加入更多商品 --></div>
 
 <table>
 	<thead>
@@ -68,41 +69,64 @@ input[type="number"] {
 			<table>
 				<tbody>
 					<tr>
-						<td><img alt="鳳梨酥" src="https://down-tw.img.susercontent.com/file/d59ae99076c44d33b96e304fc62fc6dc.webp" style="width: 100px; height: 100px;" /><img alt="蔓越莓酥" src="https://down-tw.img.susercontent.com/file/tw-11134207-7qul7-lind2n3xu1tg4d.webp" style="width: 100px; height: 100px;" /></td>
+						<td><img alt="鳳梨酥" src="https://down-tw.img.susercontent.com/file/d59ae99076c44d33b96e304fc62fc6dc.webp" style="width: 200px; height: 200px;" /><img alt="蔓越莓酥" src="https://down-tw.img.susercontent.com/file/tw-11134207-7qul7-lind2n3xu1tg4d.webp" style="width: 200px; height: 200px;" /><br />
+						<em>嚴選台灣虱目魚</em>，富含膠原蛋白、Omega-3、維生素D，補充膠原蛋白，適合日常保養。無腥味，易吸收，適合全家補充！<br />
+						<a href="https://www.finefood.com.tw/tw/about/66">SGS 檢驗證明</a></td>
 					</tr>
 				</tbody>
 			</table>
 			</td>
-			<td>享溫馨 魚萃 60ML /100包</td>
-			<td>5880</td>
+			<td>享溫馨 魚萃 60ML /100包<br />
+			目前效期：2027.11</td>
+			<td>5800</td>
 			<td><input class="item" data-name="鳳梨酥一圓形 550g 12盒/箱" data-price="5800" min="0" type="number" value="0" /></td>
 		</tr>
 		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
 			<td>
-			<div><img alt="" src="https://down-tw.img.susercontent.com/file/tw-11134207-81ztd-mfy31be6sl5701.webp" style="width: 100px; height: 100px;" /></div>
+			<div>&nbsp;</div>
 
 			<table>
 				<tbody>
 					<tr>
-						<td><img alt="" src="https://down-tw.img.susercontent.com/file/tw-11134207-81ztp-mfy31kdn6nm56d.webp" style="width: 100px; height: 100px;" /></td>
+						<td><img alt="" src="https://down-tw.img.susercontent.com/file/tw-11134207-81ztp-mfy31kdn6nm56d.webp" style="width: 200px; height: 200px;" /><img alt="" src="https://down-tw.img.susercontent.com/file/tw-11134207-81ztd-mfy31be6sl5701.webp" style="width: 200px; height: 200px;" /></td>
+					</tr>
+					<tr>
+						<td><em>享溫馨</em>原味<em>滴雞精</em>，嚴選台灣土雞，透過獨家滴萃技術，完整保留珍貴的胺基酸、胜肽及膠質，幫助您增強體力，是日常滋補的絕佳選擇。<br />
+						<a href="https://www.finefood.com.tw/tw/about/66">SGS 檢驗證明</a></td>
 					</tr>
 				</tbody>
 			</table>
 			</td>
-			<td>享溫馨 滴雞精 60ML /100包</td>
+			<td>享溫馨 滴雞精 60ML /100包<br />
+			目前效期：2028.1</td>
 			<td>5800</td>
 			<td><input class="item" data-name="蔓越莓酥─彩盒版 250g 12盒/箱" data-price="5800" min="0" type="number" value="0" /></td>
 		</tr>
 	</tbody>
 </table>
 
-<p style="text-align: center;">商品小計： <input id="subtotal" readonly="readonly" type="text" value="0" /> 元</p>
+<p>商品小計： <input id="subtotal" readonly="readonly" type="text" value="0" /> 元</p>
 
-<p style="text-align: center;">運費（郵局）： <input id="shipping" readonly="readonly" type="text" value="0" /> 元</p>
+<p>運費（郵局）： <input id="shipping" readonly="readonly" type="text" value="0" /> 元</p>
 
-<p style="text-align: center;"><strong>訂購總金額：</strong> <input id="total" name="total" readonly="readonly" type="text" value="0" /> 元</p>
+<p><strong>訂購總金額：</strong> <input id="total" name="total" readonly="readonly" type="text" value="0" /> 元</p>
 
-<p style="text-align: center;"><button type="submit">送出訂單</button></p>
+<p><br />
+<br />
+<br />
+<strong>About Us</strong><em>店家簡介<br />
+已設立營業登記<br />
+統一編號00318707<br />
+營業人黃姿雅<br />
+<strong>客服信箱: ant513042@yahoo.com.tw&nbsp;客服電話：0918285797<br />
+<br />
+<a href="https://ant513042.github.io/forcostomer/privacy.html">隱私權政策</a>&nbsp; &nbsp;&nbsp;<a href="https://ant513042.github.io/forcostomer/return.html">退換貨說明&nbsp;</a> &nbsp;&nbsp;</strong></em></p>
 </form>
 <script>
 const items = document.querySelectorAll('.item');
